@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text} from 'react-native';
+import { View } from 'react-native';
 
 import Header from './src/components/Header'
 import Post from './src/components/Post'
@@ -10,11 +10,11 @@ export default class App extends Component {
 		const comments = [
 			{
 			nickname: 'Dummy 1',
-			comment: 'DAHORA'
+			comment: 'Um belo comentário aqui'
 		},
 		{
 			nickname: 'Dummy 2',
-			comment: 'BEM LOCO'
+			comment: 'Um comentário não tão belo aqui'
 		}
 		]
 		return (
